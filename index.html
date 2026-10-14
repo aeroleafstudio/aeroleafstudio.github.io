@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Aeroleaf</title>
+<meta name="description" content="Aeroleaf makes Grids, unlimited logic puzzles for Android.">
+<style>
+  :root {
+    --bg: #f4f8fa;
+    --card: #ffffff;
+    --text: #12303d;
+    --muted: #4b6774;
+    --rule: #d3e1e7;
+    --accent: #0b6f8a;
+    --hero-top: #0b4f6c;
+    --hero-bottom: #1d8a8f;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #0b1d26;
+      --card: #102833;
+      --text: #e6f1f5;
+      --muted: #a2bcc7;
+      --rule: #23414e;
+      --accent: #6fd3ea;
+    }
+  }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--text);
+    font: 17px/1.6 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  }
+  header {
+    background: linear-gradient(160deg, var(--hero-top), var(--hero-bottom));
+    color: #ffffff;
+    padding: 56px 16px 64px;
+    text-align: center;
+  }
+  header h1 { font-size: 40px; line-height: 1.1; margin: 0 0 8px; letter-spacing: 0.5px; }
+  header p { margin: 0; opacity: 0.85; }
+  main { max-width: 680px; margin: -32px auto 0; padding: 0 16px 64px; }
+  .card {
+    background: var(--card);
+    border: 1px solid var(--rule);
+    border-radius: 16px;
+    padding: 24px;
+    margin-bottom: 16px;
+  }
+  .card h2 { font-size: 24px; margin: 0 0 8px; }
+  .card p { margin: 0 0 12px; }
+  .games { color: var(--muted); }
+  a { color: var(--accent); }
+  footer { color: var(--muted); font-size: 15px; text-align: center; margin-top: 32px; }
+</style>
+</head>
+<body>
+<header>
+  <h1>Aeroleaf</h1>
+  <p>Puzzle games for Android</p>
+</header>
+<main>
+  <section class="card">
+    <h2>Grids</h2>
+    <p>Unlimited logic puzzles in a calm glass-and-aurora world. Every puzzle has exactly one solution and can be
+    solved by reasoning alone, at every difficulty.</p>
+    <p class="games">Crowns · Dew · Sudoku · Trace · Tiles</p>
+    <p>Works offline, with no account. Coming soon to Google Play.</p>
+    <p><a href="grids/privacy.html">Privacy policy</a></p>
+  </section>
+  <section class="card">
+    <h2>Contact</h2>
+    <p><a href="mailto:contact.aeroleaf@gmail.com">contact.aeroleaf@gmail.com</a></p>
+  </section>
+  <footer>© 2026 Aeroleaf</footer>
+</main>
+</body>
+</html>
